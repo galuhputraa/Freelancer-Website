@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    margin-top: 10rem;
+} */
+
+.header{
+    width: 900px;
+    margin: auto;
+    padding:20px;
+    background: #f4d5ba;
+    /* background: red; */  
+}
+
+.article{
+    display: flex;
+    width:900px;
+    margin: auto;
+    /* background: lightblue; */
+    padding:20px;
+    background: #daeabe;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.article .kolom1{
+    padding: 10px;
+    background: red;
+
+}
+
+.article .kolom1 img{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 100 px;
+}
+
+.article .kolom2{
+    padding:10px;
+    background: yellow;
+}
+
+.article .kolom3{
+    background: green;
+    padding: 10px;
+}
+
+
+
+.footer{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #79989e;
+}
